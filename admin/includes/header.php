@@ -1,3 +1,8 @@
+<!-- ob_start: Header function will receive errors if you don't turn this on -->
+<!-- This is so you can get all your files initialized -->
+<?php ob_start(); ?>
+<?php include("init.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
