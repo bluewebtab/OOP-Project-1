@@ -8,7 +8,9 @@ class Database {
 
     public $conn;
 
-    //Classes which have a constructor method call this method on each newly-created object, so it is suitable for any initialization that the object may need before it is used.
+    //when you create an instance, PHP automatically calls the constructor method
+    //constructor initializes the properties of the object
+    //by assigning its values
     function __construct(){
         $this->open_db_connection();
     }
